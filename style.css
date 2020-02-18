@@ -1,0 +1,94 @@
+head{
+    width: 1020px;
+}
+
+body{
+    width: 1020px;  
+}
+
+.header{
+    position: absolute;
+width: 1020px;
+height: 92px;
+left: 0px;
+top: 0px;
+
+background: #2D303A;
+}
+
+.logo{
+    position: absolute;
+width: 155.41px;
+height: 20px;
+left: 41px;
+top: 41.74px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 24.2902px;
+line-height: 6px;
+/* or 25% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.navigation{
+    position: absolute;
+width: 411.41px;
+height: 9px;
+left: 610px;
+top: 48.05px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 11.6593px;
+line-height: 6px;
+/* or 53% */
+
+display: flex;
+align-items: center;
+}
+
+.button__active{
+    position: absolute;
+width: 411.41px;
+height: 9px;
+left: 610px;
+top: 48.05px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 11.6593px;
+line-height: 6px;
+
+display: flex;
+align-items: center;
+
+color: #F06C64;
+}
+
+.button__unactive{
+    position: absolute;
+width: 411.41px;
+height: 9px;
+left: 610px;
+top: 48.05px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 11.6593px;
+line-height: 6px;
+/* or 53% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
