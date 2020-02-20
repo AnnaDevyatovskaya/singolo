@@ -1,64 +1,48 @@
 li::after{
-content: '    ·    ';
+content: '          ·         ';
 }
 
-h4{
-    letter-spacing: normal; 
-}
 
 .container__header{
-    position: relative;
-    width: 1020px;
-    height: 89px;
+    height: 90px;
     left: 0px;
     top: 0px;
-
-    background: #2D303A;
+    background: rgb(0, 238, 139);
 }
 
 .container__header__bottom{
-    position: absolute;
-    width: 1020px;
-    height: 9px;
-    left: 0px;
-    top: 89px;
-    background: #323746;
+    padding-top: 90px;
+    height: 10;
+    background: #889cd8;
 }
 
 .container__telephones{
-    position: relative;
-    width: 1020px;
     height: 600px;
     left: 0px;
-    top: 9px;
-    background: #F06C64;
+    top: 0px;
+    background: rgb(116, 240, 100);
 }
 
 .container__telephones__bottom{
-    position: absolute;
-    width: 1020px;
-    height: 18px;
-    left: 8px;
-    top: 601px;
-    background: #EA676B;
+    height: 20px;
+    left: 0px;
+    top: 600px;
+    background: rgb(48, 32, 117);
 }
 
 .container__services{
-    position: absolute;
-    width: 1022px;
-    height: 499px;
-    left: 0px;
-    top: 0px; /* моя остановочка */
-    background: #F2F2F2;
+    margin: 0px;
+    height: 600px;
+    left: 8px;
+    top: 0px;
+    background: rgb(133, 26, 26);
 }
 
 .container__services__bottom{
-    position: absolute;
-    width: 1020px;
-    height: 10px;
+    height: 20px;
     left: 8px;
-    top: 495px;
-    background: #FFFFFF;
+    top: 600px;
+    background: rgb(192, 211, 26);
 }
 
 .singolo__name{
@@ -99,14 +83,12 @@ li:active{
   color: #F06C64;
 }
 
-.button__unactive{
+.navigation{
+    padding: 47px 1px 32px 610px;
     position: absolute;
-    width: 411.41px;
-    height: 9px;
-    left: 610px;
-    top: 48px;
     font-family: Lato;
     font-style: normal;
+    word-spacing: 1rem;
     font-weight: bold;
     font-size: 11.6593px;
     line-height: 6px;
@@ -115,12 +97,11 @@ li:active{
     color: #FFFFFF;
 }
 
-.wrapper{
-    width: 1020px;
-    height: 495px;
-}
-
 .our__services{
+    padding: 71px 694px 406px 41px;
+    position: absolute;
+    width: 286.99px;
+    height: 23px;
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
@@ -130,8 +111,10 @@ li:active{
 }
 
 .our__services__p{
-    width: 940px;
-    height: 57px;
+    padding: 119px 11px 333px 42px;
+    position: absolute;
+    width: 969px;
+    height: 47px;
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
@@ -140,29 +123,20 @@ li:active{
     text-align: left;
 }
 
-#parent {
-    position: relative;
-    width: 300px;
-    height: 87px;
-    left: 40px;
-    top: 222px;
+.layout-3-column-1{
+    padding: 222px 681px 190px 41px;
 }
 
 .layout-3-column-2{
-    width: 300px;
-    height: 87px;
-    left: 360px;
-    top: 222px;
+    padding: 222px 362px 192px 360px;
 }
 
 .layout-3-column-3{
-    width: 300px;
-    height: 87px;
-    left: 680px;
-    top: 222px;
+    padding: 222px 42px 190px 680px;
 }
 
-#child{
+.custom__design{
+    padding: 223px 664px 259px 120px;
     position: absolute;
     font-size: 18px;
     line-height: 18px;
@@ -173,6 +147,8 @@ li:active{
 }
 
 .custom__design__p{
+    padding: 250px 651px 195px 120px;
+    position: absolute;
     width: 219px;
     height: 128px;
     font-size: 12px;
@@ -184,6 +160,8 @@ li:active{
 }
 
 .inovative_ideas{
+    padding: 223px 343px 262px 440px;
+    position: absolute;
     font-size: 18px;
     line-height: 18px;
     color: #666d89;
@@ -193,6 +171,8 @@ li:active{
 }
 
 .inovative_ideas__p{
+    padding: 250px 332px 197px 440px;
+    position: absolute;
     width: 219px;
     height: 128px;
     font-size: 12px;
@@ -204,6 +184,8 @@ li:active{
 }
 
 .love__is__the__answer{
+    padding: 223px 10px 262px 763px;
+    position: absolute;
     font-size: 18px;
     line-height: 18px;
     color: #666d89;
@@ -213,6 +195,8 @@ li:active{
 }
 
 .love__is__the__answer__p{
+    padding: 250px 12px 195px 760px;
+    position: absolute;
     width: 219px;
     height: 128px;
     font-size: 12px;
