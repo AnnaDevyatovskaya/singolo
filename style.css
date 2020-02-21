@@ -1,79 +1,80 @@
-li::after{
-content: '          ·         ';
+body{
+    max-width: 1020px;
 }
 
+main{
+    max-width: 1020px;
+}
 
 .container__header{
-    height: 90px;
-    left: 0px;
-    top: 0px;
-    background: rgb(0, 238, 139);
+    height: 88px;
+    top: 1px;
+    background: #2D303A;
 }
 
 .container__header__bottom{
-    padding-top: 90px;
-    height: 10;
-    background: #889cd8;
+    position: relative;
+    width: 1020px;
+    height: 9px;
+    left: 0px;
+    top: -15px;
+    background: #323746;
 }
 
 .container__telephones{
     height: 600px;
-    left: 0px;
     top: 0px;
-    background: rgb(116, 240, 100);
+    background: #F06C64;
 }
 
 .container__telephones__bottom{
     height: 20px;
-    left: 0px;
     top: 600px;
-    background: rgb(48, 32, 117);
+    background: #EA676B;
 }
 
 .container__services{
+    max-width: 1020px;
     margin: 0px;
     height: 600px;
     left: 8px;
     top: 0px;
-    background: rgb(133, 26, 26);
+    background: #F2F2F2;
 }
 
 .container__services__bottom{
+    max-width: 1020px;
     height: 20px;
     left: 8px;
     top: 600px;
-    background: rgb(192, 211, 26);
+    background: #FFFFFF;
 }
 
 .singolo__name{
     position: absolute;
-    width: 155.41px;
     height: 20px;
     left: 41px;
-    top: 41.74px;
+    top: 30px;
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
-    font-size: 24.2902px;
+    font-size: 24px;
     line-height: 6px;
     display: flex;
     align-items: center;
     color: #FFFFFF;
 }
 
-.singolo_star{
+.singolo__star{
     position: absolute;
-    width: 155.41px;
     height: 20px;
-    left: 41px;
-    top: 41.74px;
+    left: 153px;
+    top: 30px;
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
-    font-size: 24.2902px;
+    font-size: 24px;
     line-height: 6px;
-    white-space: nowrap;
-    letter-spacing: normal; 
     display: flex;
     align-items: center;
     color: #F06C64;
@@ -83,12 +84,16 @@ li:active{
   color: #F06C64;
 }
 
+li::after, li::before{
+    content: ' · ';
+    }
+
 .navigation{
     padding: 47px 1px 32px 610px;
-    position: absolute;
+    list-style-type: none;
     font-family: Lato;
     font-style: normal;
-    word-spacing: 1rem;
+
     font-weight: bold;
     font-size: 11.6593px;
     line-height: 6px;
@@ -111,7 +116,7 @@ li:active{
 }
 
 .our__services__p{
-    padding: 119px 11px 333px 42px;
+    padding: 119px 11px 257px 42px;
     position: absolute;
     width: 969px;
     height: 47px;
@@ -121,22 +126,12 @@ li:active{
     font-family: "Lato";
     font-weight: 300;
     text-align: left;
-}
-
-.layout-3-column-1{
-    padding: 222px 681px 190px 41px;
-}
-
-.layout-3-column-2{
-    padding: 222px 362px 192px 360px;
-}
-
-.layout-3-column-3{
-    padding: 222px 42px 190px 680px;
+    display: flex;
+    align-items: center;
 }
 
 .custom__design{
-    padding: 223px 664px 259px 120px;
+    padding: 223px 664px 192px 120px;
     position: absolute;
     font-size: 18px;
     line-height: 18px;
@@ -147,10 +142,10 @@ li:active{
 }
 
 .custom__design__p{
-    padding: 250px 651px 195px 120px;
+    padding: 258px 651px 193px 120px;
     position: absolute;
-    width: 219px;
-    height: 128px;
+    width: 240px;
+    height: 54px;
     font-size: 12px;
     line-height: 22px;
     color: #767e9e;
@@ -171,9 +166,9 @@ li:active{
 }
 
 .inovative_ideas__p{
-    padding: 250px 332px 197px 440px;
+    padding: 258px 332px 197px 440px;
     position: absolute;
-    width: 219px;
+    width: 240px;
     height: 128px;
     font-size: 12px;
     line-height: 22px;
@@ -195,7 +190,7 @@ li:active{
 }
 
 .love__is__the__answer__p{
-    padding: 250px 12px 195px 760px;
+    padding: 258px 12px 195px 763px;
     position: absolute;
     width: 219px;
     height: 128px;
